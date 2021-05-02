@@ -1,0 +1,264 @@
+body{
+  width:100%;
+  height:100%;
+}
+#wrapper{
+  width:100%%;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+  overflow:hidden;
+}
+.resizeimage img{
+   width:100%;
+}
+header{
+ width:100%;
+}
+header ul{
+  width:100%;
+  height: 60px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+
+header ul .logo{
+  font-size:2vw;
+  color:blue;
+}
+
+header ul li{
+  font-size:1vw;
+}
+
+main #main__screen {
+  width:100%;
+  height:60vw;
+  background-size:cover;
+  background-position:center;
+  background-image:url("fm3.jpg");
+}
+#about__screen{
+  width:100%;
+  height:100%;
+  position:relative;
+}
+#about__screen h1{
+   font-size:3vw;
+   font-family:serif;
+   font-weight:bold;
+   text-align:center;
+   margin:5vw 0vw;
+}
+#about__screen .about__top{
+  display:flex;
+  justify-content:flex-start;
+  margin-top:10vw;
+  height:60vh;
+  width:100%;
+}
+.about__top__image{
+  background-image:url("fm5.jpg");
+  background-size:cover;
+  background-position:center center;
+  width: 55%;
+  height:50vh;
+  margin-left:10vw;
+    }
+.about__top__text{
+  width:45%;
+  height:50vh;
+  margin-left:8vw;
+    }
+.about__top__text p{
+  font-size:1vw;
+  letter-spacing: 2px;
+  line-height:2em;
+    }
+.about__top__text .text__eng{
+  font-size:2vw;
+  margin-bottom:3vw;
+    }
+.about__top__text h3{
+  font-size:2vw;
+  font-family:serif;
+}
+
+.about__bottom{
+  width:100%;
+  height:60vh;
+  display:flex;
+  justify-content:flex-start;
+  margin:5vw 0vw 0vw 10vw;
+    }
+.about__bottom__image{
+   background-image:url("fm4.jpg");
+   background-size:cover;
+   background-position:center center;
+   width:45%;
+   height:50vh;
+}
+
+.about__bottom__text{
+  margin-left:8vw;
+  width:45%;
+    }
+
+.about__bottom__text .text__eng{
+  font-size:2vw;
+  margin-bottom:3vw;
+    }
+.about__bottom__text h3{
+  font-size:2vw;
+  font-family:serif;
+  }
+p{
+  font-size:1vw;
+  letter-spacing: 2px;
+  line-height:2em;
+    }
+#company__info{
+  width:100%;
+  height:100%;
+  margin-top:5vw;
+}
+#company__info h1{
+  font-size:3vw;
+  font-family:serif;
+  font-weight:bold;
+  text-align:center;
+  margin-bottom:3vw;
+}
+.company__selection{
+  width:100%;
+  height:100%;
+}
+.company__selection .interview__top{
+  display:flex;
+  justify-content:center;
+}
+.company__selection .interview__top .interview__top__img{
+  background-image:url("fm8.jpg");
+  background-position:center center;
+  background-size:cover;
+  width:45%;
+  height:30vw;
+  margin-left:10vw;
+}
+
+.company__selection .interview__top .interview__top__text{
+  width:50%;
+  height:50vw;
+  margin-left:5vw;
+}
+
+.company__selection .interview__top .interview__top__text h2{
+   font-size:2vw;
+   margin-left:10vw;
+}
+.company__selection .interview__top .interview__top__text h3{
+    font-size: 2vw;
+    margin:0vw 0vw 2vw 3vw;
+}    
+.company__selection .interview__top .interview__top__text .company__name{
+  font-size:1.5vw;
+  font-weight:bold;
+  letter-spacing:2px;
+}    
+.company__selection .interview__top .interview__top__text .company__text{
+  font-size:1vw;
+  line-height:2em;
+  margin-top:2vw;
+}
+.interview__bottom{
+  width:100%;
+  height:100%;
+  margin-top:2vw;
+  display:flex;
+  justify-content:center;
+}
+.interview__bottom__img{
+  background-image:url("fm7.jpg");
+  background-position:center center;
+  background-size:cover;
+  width:45%;
+  height:30vw;
+  margin-left:10vw;
+}
+.interview__bottom .interview__bottom__text{
+  width:50%;
+  height:40vw;
+  margin-left:5vw;
+}
+
+.interview__bottom .interview__bottom__text h2{
+  margin-left:10vw;
+  font-size:2vw;
+}
+.interview__bottom .interview__bottom__text h3{
+  font-size:2vw;
+  margin-left:2vw;
+}   
+.interview__bottom .interview__bottom__text .company__officer{
+  font-size:1vw;
+  font-weight:bold;
+  margin-top:2vw;
+}    
+.interview__bottom .interview__bottom__text .company__text__bottom{
+  font-size:1vw;
+  line-height:2em;
+  margin-top:3vw;
+}
+
+.company__info__page{
+  width:100%;
+  height:100%;
+  margin-top:5vw;
+  text-align:center;
+}
+
+.company__info__page h2{
+  font-size:2vw;
+  font-family:serif;
+}
+.company__info__page .company__info__table{
+   display:flex;
+   flex-direction:column;
+}
+
+.company__info__page .company__info__table li{
+  font-size:2vw;
+  font-family:serif;
+  line-height:3em;
+}
+
+.company__info__page .company__info__table li span{
+  padding-left:5vw;
+}
+#footer{
+margin-top:5vw;
+width:100%;
+height:100vh;
+}
+
+#footer .text__eng{
+font-size:2vw;
+margin-bottom:1vw;
+text-align:center;
+}
+#footer h3{
+text-align:center;
+font-size:2vw;
+margin-bottom:2vw;
+}
+
+#footer ul{
+display:flex;
+text-align:center;
+flex-direction:column;
+justify-content:center;
+}
+#footer li{
+font-size:1vw;
+margin-bottom:1vw;
+
+}
