@@ -7,12 +7,22 @@
  <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ <link href="slick/slick/slick-theme.css" rel="stylesheet" type="text/css">
+ <link href="slick/slick/slick.css" rel="stylesheet" type="text/css">
  <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
  <script type="text/javascript" src="slick/slick/slick.min.js#"></script>
-  
 
+<script>
 
+$(function(){
+$("#main__screen").slick({
+   autoplay:true,
+   autoplaySpeed:2000,
+   dots:true,
+});
+});
 
+</script>
 
 </head>
 
@@ -21,29 +31,29 @@
   <header>
   <ul>
      <li class="logo">HUMAN BASE OKANO</li>
-     <li>ABOUT</li>
-     <li>CONTACT</li>
+     <li>INFORMATION</li>
+     <li>STORE INDEX</li>
      <li>RECRUTE</li>
    </ul>
   </header>
 
   <main>
-   <div id="main__screen">
-    
-   </div>
+   <div id="main__screen"><img src="fm3.jpg"><img src ="fm6.jpg"><img src="fm10.jpg"></div>
 
    <div id="about__screen">
-       <h1>WORKS & PHILOSOPHY</h1>
+       <h1>BUSINESS & PHILOSOPHY</h1>
      <div class="about__top">
        <div class="about__top__image"></div>
 
        <div class="about__top__text">
-        <h3>WORKS</h3>
-	<p class="text__eng">~私達の仕事~</p>
-	<p>生活の近くに寄り添う<br>
-	  必要な物がいつでも揃う<br>
-	  安心・安全・清潔な空間で快適なお買い物を</p>
-	<p>私たちはお客様の近くで最適なサービスを提供します。</p>
+        <h3>BUSINESS</h3>
+	<p class="text__eng">~事業内容~</p>
+    <p>コンビニエンスチェーンファミリーマートのFC事業<br>
+	  埼玉県内を中心に2021年現在<br>11店舗を経営しています。<br>
+	<p>店舗同士が高め合いよりよい店舗運営を目指して、<br>日々切磋琢磨しています。</p>
+	<div class="more__btn">
+	 <h2>MORE INFO</h2>
+	</div>
        </div>
     </div>
 
@@ -55,8 +65,11 @@
        <p class="text__eng">~理念・価値観~</p>
        <p>「接客」「教育」「管理」店舗を運営することは、<br>
        その全てに携わり、追求していくことです。<br>
-       私達は、社員が社会人として成長できる場所を提供し、<br>
+       私達は、社員が社会人として<br>成長できる場所を提供し、<br>
        共に目標を達成できる企業を目指しています。</p>
+      <div class="more__btn">
+        <h2>MORE RECRUTE</h2>
+      </div>
      </div>
     </div>
    </div>
@@ -68,8 +81,8 @@
       <div class="interview__top">
        <div class="interview__top__img"> </div>
        <div class="interview__top__text">
-        <h2>代表挨拶</h2>
-	<h3>~Greeting From President~</h3>
+        <h2>Greeting From President</h2>
+	<h3>~代表挨拶~</h3>
 	<p class="company__name">(株)ヒューマンベース代表取締役 岡野　弘</p>
 	<p class="company__text">ヒューマンベース創設から10数年が経過しました。<br>
 昨年から続くcovid-19の世界的な流行によって<br>小売り業界にも新しい変化の時代が訪れようとしています。<br>
@@ -85,55 +98,47 @@
         <div class="interview__bottom__img">
 	</div>
 	<div class="interview__bottom__text">
-	 <h2>役員挨拶</h2>
-	 <h3>~Greeting From Officer~</h3>
+	 <h2>Greeting From Officer</h2>
+	 <h3>~役員挨拶~</h3>
 	 <p class="company__officer">執行役員・店舗統括 押田 康幸</p>
-	 <p class="company__text__bottom">店舗を総括する立場で仕事に関わっています。</p>
+     <p class="company__text__bottom">店舗を総括する立場で仕事に関わっています。<br>
+店舗指導や社員教育を通じて事業に貢献できるよう<br>日々力を尽くしています。<br>
+コロナ禍という状況下のおいて、<br>
+社員・スタッフをはじめ多くの方々に支えられ<br>営業を継続できております。<br>
+支援に対して心からの感謝の気持ちを忘れず<br>仲間と共に日々成長していくため<br>
+精進してまいります。</p>
+  <div class="more__btn">
+   <h2>MORE INTERVIEW</h2>
+  </div>
 	<div>
        </div>
       </div>
-     </diV>
-     　　　
-  　　<div class="company__info__page">
-  　　　<h2>企業概要</h2>
-       <ul class="company__info__table">
-        <li>商号<span> 株式会社ヒューマンベースオカノ<span></li>
-        <li>設立年月日<span>2010年4月1日</span></li>
-	<li>代表取締役<span>岡野弘</span></li>
-        <li>資本金<span>1000万円</span></li>
-        <li>従業員数<span>200名</span></li>
-        <li>事業内容<span>ファミリーマートFC事業</span></li>
-       </ul>
-      </div>
-
-
-   <div id="contact__form">
-   </div>
-
+     </diV>    　　　
   </main>
   <footer>
-   <div id="footer">
-     <div class="footer__store__info">
-      <div class="footer__store__list">
-        <h3 class="text__eng">STORE INDEX</h3>
-        <h3>ファミリーマート運営店舗一覧</h3>
-       <ul>
-         <li>草加八幡町店</li>
-         <li>越谷蒲生東町店</li>
-         <li>三郷花和田店</li>
-         <li>三郷西インター店</li>
-         <li>岩槻東町一丁目店</li>
-         <li>春日部増戸店</li>
-         <li>大宮すずらん通り店</li>
-         <li>大宮大門一丁目店</li>
-         <li>上尾小敷谷東店</li>
-         <li>田無駅前店</li>
-         <li>田無三丁目店</li>
-       <ul>
+   <div id="footer__content">
+     <div class="footer__info">
+      <div class="footer__left__text">
+       <p>企業の発展は社員の成長と共に</p>
+       <p>誠実・謙虚・礼儀</p>
+       <p>人間の基礎を大切にする会社</p>
+      </div>
+      <div class="footer__right__title">
+       <h2>HUMAN BASE OKANO</h2>
       </div>
      </div>
+     <div class="footer__list">
+       <ul>
+         <li><a href="#wrapper">TOP</a></li>
+         <li>INFOMATION</li>
+         <li>STORE INDEX</li>
+         <li>BLOG</li>
+       <ul>
+    </div>
+    <div class="footer__image">
+    </div>
    </div>
-  </footer>
+ </footer>
  </div>
 </body>
 </html>

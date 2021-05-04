@@ -7,9 +7,7 @@ body{
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
   overflow:hidden;
 }
-.resizeimage img{
-   width:100%;
-}
+
 header{
  width:100%;
 }
@@ -27,27 +25,28 @@ header ul .logo{
 }
 
 header ul li{
-  font-size:1vw;
+  font-size:1.5vw;
 }
 
 main #main__screen {
   width:100%;
-  height:60vw;
-  background-size:cover;
-  background-position:center;
-  background-image:url("fm3.jpg");
+  height:47vw;
+}
+main #main__screen img{
+  width:100%;
+  height:45vw;
+  padding-top:-2vw;
 }
 #about__screen{
   width:100%;
-  height:100%;
-  position:relative;
+  height:100%;;
 }
 #about__screen h1{
    font-size:3vw;
    font-family:serif;
    font-weight:bold;
    text-align:center;
-   margin:5vw 0vw;
+   margin:10vw 0vw 5vw 0vw;
 }
 #about__screen .about__top{
   display:flex;
@@ -60,28 +59,43 @@ main #main__screen {
   background-image:url("fm5.jpg");
   background-size:cover;
   background-position:center center;
-  width: 55%;
+  width: 48%;
   height:50vh;
   margin-left:10vw;
     }
 .about__top__text{
   width:45%;
   height:50vh;
-  margin-left:8vw;
+  margin-left:3vw;
     }
 .about__top__text p{
-  font-size:1vw;
+  font-size:1.2vw;
   letter-spacing: 2px;
   line-height:2em;
     }
 .about__top__text .text__eng{
-  font-size:2vw;
+  font-size:1.5vw;
   margin-bottom:3vw;
     }
 .about__top__text h3{
   font-size:2vw;
   font-family:serif;
 }
+.about__top__text .more__btn{
+  width:15vw;
+  height:4vw;
+  margin:4vw 0vw 0vw 20vw;
+  background-color:#000;
+  text-align:center;
+}
+.about__top__text .more__btn:hover {
+  opacity:0.6;
+}    
+.about__top__text .more__btn h2{
+  color:#fff;
+  padding-top:1vw;
+  font-size:1.5vw;
+}    
 
 .about__bottom{
   width:100%;
@@ -99,12 +113,13 @@ main #main__screen {
 }
 
 .about__bottom__text{
-  margin-left:8vw;
+  margin-left:3vw;
   width:45%;
+  height:50vh;
     }
 
 .about__bottom__text .text__eng{
-  font-size:2vw;
+  font-size:1.5vw;
   margin-bottom:3vw;
     }
 .about__bottom__text h3{
@@ -112,10 +127,26 @@ main #main__screen {
   font-family:serif;
   }
 p{
-  font-size:1vw;
+  font-size:1.2vw;
   letter-spacing: 2px;
   line-height:2em;
-    }
+}
+.about__bottom__text .more__btn{
+  width:15vw;
+  height:4vw;
+  margin:4vw 0vw 0vw 20vw;
+  background-color:#000;
+  text-align:center;
+}
+
+.about__bottom__text .more__btn:hover{
+  opacity:0.6;
+}    
+.about__bottom__text .more__btn h2{
+  color:#fff;
+  padding-top:1vw;
+  font-size:1.5vw;
+}    
 #company__info{
   width:100%;
   height:100%;
@@ -126,7 +157,7 @@ p{
   font-family:serif;
   font-weight:bold;
   text-align:center;
-  margin-bottom:3vw;
+  margin-bottom:5vw;
 }
 .company__selection{
   width:100%;
@@ -153,11 +184,10 @@ p{
 
 .company__selection .interview__top .interview__top__text h2{
    font-size:2vw;
-   margin-left:10vw;
 }
 .company__selection .interview__top .interview__top__text h3{
     font-size: 2vw;
-    margin:0vw 0vw 2vw 3vw;
+    margin:1vw 0vw 2vw 3vw;
 }    
 .company__selection .interview__top .interview__top__text .company__name{
   font-size:1.5vw;
@@ -165,14 +195,13 @@ p{
   letter-spacing:2px;
 }    
 .company__selection .interview__top .interview__top__text .company__text{
-  font-size:1vw;
+  font-size:1.2vw;
   line-height:2em;
   margin-top:2vw;
 }
 .interview__bottom{
   width:100%;
   height:100%;
-  margin-top:2vw;
   display:flex;
   justify-content:center;
 }
@@ -191,74 +220,314 @@ p{
 }
 
 .interview__bottom .interview__bottom__text h2{
-  margin-left:10vw;
   font-size:2vw;
 }
 .interview__bottom .interview__bottom__text h3{
   font-size:2vw;
-  margin-left:2vw;
+  margin:1vw 0vw  0vw 3vw;
+
 }   
 .interview__bottom .interview__bottom__text .company__officer{
-  font-size:1vw;
+  font-size:1.5vw;
   font-weight:bold;
   margin-top:2vw;
 }    
 .interview__bottom .interview__bottom__text .company__text__bottom{
-  font-size:1vw;
+  font-size:1.2vw;
   line-height:2em;
   margin-top:3vw;
 }
-
-.company__info__page{
-  width:100%;
-  height:100%;
-  margin-top:5vw;
+.interview__bottom .interview__bottom__text .more__btn{
+  width:15vw;
+  height:4vw;
+  margin:4vw 0vw 0vw 23vw;
+  background-color:#000;
   text-align:center;
 }
 
-.company__info__page h2{
+.interview__bottom .interview__bottom__text .more__btn:hover{
+  opacity:0.6;
+}    
+.interview__bottom .interview__bottom__text .more__btn h2{
+  color:#fff;
+  padding-top:1vw;
+  font-size:1.5vw;
+}    
+
+footer{
+  border-top:1px solid #bbb;
+  margin-top:8vw;
+  width:100%;
+  height:35vw;
+}
+
+#footer__content{
+  width:100%;
+  height:100%;
+  position:relative;
+}
+#footer__content .footer__info{
+  width:100%;
+  height:30vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+} 
+
+#footer__content .footer__info .footer__left__text p{
   font-size:2vw;
-  font-family:serif;
+  margin-bottom:1vw;
 }
-.company__info__page .company__info__table{
-   display:flex;
-   flex-direction:column;
-}
-
-.company__info__page .company__info__table li{
-  font-size:2vw;
-  font-family:serif;
-  line-height:3em;
+#footer__content .footer__info .footer__right__title h2{
+  font-size:2.5vw;
+  color:blue;
+  margin-left:2vw;
 }
 
-.company__info__page .company__info__table li span{
-  padding-left:5vw;
+#footer__content .footer__image{
+  width:25vw;
+  height:20vw;
+  background-image:url("fm11.jpg");
+  background-position:center center;
+  background-size:cover;
+  position:absolute;
+  top:2vw;
+  left:70vw;
+  z-index:-1;
 }
-#footer{
-margin-top:5vw;
-width:100%;
-height:100vh;
-}
-
-#footer .text__eng{
-font-size:2vw;
-margin-bottom:1vw;
-text-align:center;
-}
-#footer h3{
-text-align:center;
-font-size:2vw;
-margin-bottom:2vw;
-}
-
-#footer ul{
+#footer__content .footer__list ul{
 display:flex;
-text-align:center;
-flex-direction:column;
-justify-content:center;
+justify-content:space-around;
+align-items:center;
 }
-#footer li{
-font-size:1vw;
-margin-bottom:1vw;
+#footer__content  .footer__list li{
+font-size:1.5vw;
+}
+
+@media only screen and (max-width:1030px){
+main #about__screen{
+  height:100%;
+}
+main #about__screen .about__top{
+  height:40vh;
+}
+main #about__screen .about__top__image{
+  height:30vh;
+  margin-top:0vw;
+}
+    
+main #about__screen .about__bottom{
+  height:40vh;
+}
+
+main #about__screen .about__bottom .about__bottom__image{
+  height:30vh;
+}
+
+}
+@media only screen and (max-width:960px){
+ main #main__screen{
+  width:100%;
+  height:100%;
+}
+main #main__screen img{
+  height:95vw;
+}
+
+main #about__screen h1{
+  margin-top:20vw;
+  font-size:5vw;	
+}
+main #about__screen .about__top{
+  height:100vw;
+  flex-direction:column;
+}     
+main #about__screen .about__top .about__top__image{
+  width:100%;
+  height:60vw;
+  margin-left:0vw;
+  background-image:url("fm_top.jpg");
+  background-position:center center;
+  background-size:cover;
+ 
+}
+
+main #about__screen .about__top .about__top__text{
+  width:100%;
+  height:30vw;
+  text-align:center;
+  margin-left:0vw;
+  margin-top:3vw;
+}
+main #about__screen .about__top .about__top__text h3{
+  font-size:5vw;
+  margin-bottom:1vw;
+  margin-top:5vw;
+}
+main #about__screen .about__top .about__top__text .text__eng {
+  font-size:3vw;
+}    
+main #about__screen .about__top .about__top__text p{
+  font-size:3.5vw;
+  line-height:2em;
+}
+main #about__screen .about__top .about__top__text .more__btn{
+  display:none;
+}
+main .about__bottom{
+  height:40vh;
+  margin-left:0vw;
+  margin-top:20vw;
+  margin-bottom:30vw;
+  flex-direction:column;
+}
+main .about__bottom .about__bottom__image{
+  display:none;
+}
+
+main .about__bottom .about__bottom__text{
+  width:100%;
+  text-align:center;
+  margin-left:0vw;
+}
+main .about__bottom .about__bottom__text h3{
+  font-size:5vw;
+  margin-top:10vw;
+}
+main .about__bottom .about__bottom__text .text__eng {
+  font-size:3vw;
+  margin-top:2vw;
+}  
+main .about__bottom .about__bottom__text p{
+  font-size:3.5vw;
+  line-height:2em;
+}
+
+main .about__bottom .about__bottom__text .more__btn{
+  display:none;
+}    
+#company__info{
+  margin-top:10vw;
+  height:100%;
+}
+#company__info h1{
+  font-size:5vw;
+  margin-bottom:-10vw;
+}
+#company__info .company__selection .interview__top{
+  flex-direction:column;
+  margin-top:5vw;
+  height:120vh;
+}
+
+#company__info .company__selection .interview__top .interview__top__img{
+  width:100%;
+  height:40vw;
+  margin-left:0vw;
+}
+#company__info .company__selection .interview__top .interview__top__text{
+  margin-top:5vw;
+  width:100%;
+  height:70vh;
+  text-align:center;
+  margin-left:0vw;
+}
+#company__info .company__selection .interview__top .interview__top__text h2{
+  font-size:4vw;
+}
+#company__info .company__selection .interview__top .interview__top__text h3{
+  font-size:4vw;
+  margin-top:2vw;
+}
+
+#company__info .company__selection .interview__top .interview__top__text .company__name{
+  font-size:4vw;
+}
+
+#company__info .company__selection .interview__top .interview__top__text .company__text{
+  font-size:3vw;
+  letter-spacing:1px;
+  margin-top:2vw;
+}
+.interview__bottom{
+  flex-direction:column;
+}
+.interview__bottom .interview__bottom__img{
+  display:none;
+}
+.interview__bottom .interview__bottom__text{
+  width:100%;
+  height:50vh;
+  margin-left:0vw;
+  margin-bottom:10vw;
+  text-align:center;
+}
+.interview__bottom .interview__bottom__text h2{
+  font-size:4vw;
+}    
+.interview__bottom .interview__bottom__text h3{
+  font-size:4vw;
+  margin-top:2vw;
+}
+
+.interview__bottom .interview__bottom__text .company__officer{
+  font-size:4vw;
+  margin-top:2vw;
+}
+.interview__bottom .interview__bottom__text .company__officer{
+  font-size:3vw;
+  margin-top:2vw;
+}
+
+.interview__bottom .interview__bottom__text .company__text__bottom{
+  font-size:3vw;
+}   
+
+.interview__bottom .interview__bottom__text .more__btn{
+  display:none;
+}
+footer{
+  height:60vw;
+}
+footer #footer__content .footer__image{
+  top:3vw;
+}
+footer #footer__content .footer__list{
+  height:15vh;
+}
+
+footer #footer__content .footer__list ul{
+  flex-direction:column;
+  border-top:1px solid #bbb;
+}    
+footer #footer__content .footer__list ul li{
+  padding-top:3vw;
+}
+
+footer #footer__content .footer__list ul li:hover{
+  opacity:0.6;
+}
+
+@media only screen and (max-width:500px){
+main .about__bottom{
+  height:40vh;
+}
+main .about__bottom .about__bottom__image{
+  height:60vw;
+}
+
+
+#company__info .company__selection .interview__top{
+   height:160vw; 
+}
+
+#company__info .company__selection .interview__top .interview__top__img{
+   height:60vw; 
+}   
+#company__info .company__selection .interview__top .interview__top__text{
+  height:120vw;;
+}
+
+
 
 }
