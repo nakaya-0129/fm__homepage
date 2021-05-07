@@ -10,10 +10,11 @@ body{
 
 header{
  width:100%;
+ height:8vh;
 }
-header ul{
+header .header__main__list{
   width:100%;
-  height: 60px;
+  height:100%;
   display:flex;
   justify-content:space-around;
   align-items:center;
@@ -28,6 +29,12 @@ header ul li{
   font-size:1.5vw;
 }
 
+header ul li:hover{
+  opacity:0.6;
+}
+header #header__hidden__content{
+  display:none;
+}
 main #main__screen {
   width:100%;
   height:47vw;
@@ -166,6 +173,8 @@ p{
 .company__selection .interview__top{
   display:flex;
   justify-content:center;
+  width:100%;
+  height:100%;
 }
 .company__selection .interview__top .interview__top__img{
   background-image:url("fm8.jpg");
@@ -324,8 +333,88 @@ main #about__screen .about__bottom .about__bottom__image{
   height:30vh;
 }
 
+main #about__screen .about__top .about__top__text p{
+  font-size:1.8vw;
 }
+main #about__screen .about__bottom .about__bottom__text p{
+  font-size:1.8vw;
+}
+}
+
 @media only screen and (max-width:960px){
+main #about__screen .about__top .about__top__text p{
+  font-size:2vw;
+}
+
+main #about__screen .about__bottom .about__bottom__text p{
+  font-size:2vw;
+}    
+}    
+@media only screen and (max-width:700px){
+header{
+  position:relative;	
+}    
+ header .header__main__list{
+  display:none;
+ }
+header #header__hidden__content{
+  display:block;
+  width:100%;
+  height:100%;
+}
+header #header__hidden__content .header__hidden__main{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+header #header__hidden__content .header__hidden__main .hidden__title h2{
+  font-size:3vw;
+  margin-left:5vw;
+}    
+header #header__hidden__content .header__menu div{
+  width:5vw;
+  height:1vw;
+  margin-right:5vw;
+  border-top:2px solid #000;
+  padding-bottom:1vw;
+}    
+
+header #header__hidden__content .header__hidden__list{
+  display:none;
+}    
+header #header__hidden__content .header__hidden__list.active{
+   display:block;
+   width:100%;
+   height:105vw;
+   background-color:#fff;
+   z-index:3;
+   position:absolute;
+   animation:listAnimation 0.5s;
+}
+@keyframes listAnimation{
+  0%{
+    transform:translateX(-50vw);
+  }
+  100%{
+    transform:translateX(0vw);
+  }
+}
+
+header #header__hidden__content .header__hidden__list ul .close__btn{
+  font-size:10vw;
+  margin-top:0vw;
+  margin-left:85vw;
+}    
+header #header__hidden__content .header__hidden__list ul li{
+  font-size:3vw;
+  font-size:bold;
+  margin-top:5vw;
+  text-align:center;
+}
+   
  main #main__screen{
   width:100%;
   height:100%;
@@ -417,18 +506,19 @@ main .about__bottom .about__bottom__text .more__btn{
 #company__info .company__selection .interview__top{
   flex-direction:column;
   margin-top:5vw;
-  height:120vh;
+  height:100%;
 }
 
 #company__info .company__selection .interview__top .interview__top__img{
   width:100%;
   height:40vw;
   margin-left:0vw;
+  margin-top:10vw;
 }
 #company__info .company__selection .interview__top .interview__top__text{
   margin-top:5vw;
   width:100%;
-  height:70vh;
+  height:100%;
   text-align:center;
   margin-left:0vw;
 }
@@ -451,13 +541,14 @@ main .about__bottom .about__bottom__text .more__btn{
 }
 .interview__bottom{
   flex-direction:column;
+  margin-top:10vw;
 }
 .interview__bottom .interview__bottom__img{
   display:none;
 }
 .interview__bottom .interview__bottom__text{
   width:100%;
-  height:50vh;
+  height:100%;
   margin-left:0vw;
   margin-bottom:10vw;
   text-align:center;
@@ -518,16 +609,25 @@ main .about__bottom .about__bottom__image{
 
 
 #company__info .company__selection .interview__top{
-   height:160vw; 
+   height:100%; 
 }
 
 #company__info .company__selection .interview__top .interview__top__img{
-   height:60vw; 
+   height:40vw; 
 }   
 #company__info .company__selection .interview__top .interview__top__text{
-  height:120vw;;
+  height:100%;
+}
 }
 
-
-
+@media only screen and (max-width:320px)
+{
+    
+  main #about__screen .about__bottom{
+  height:25vh;
+}      
+  main .about__bottom .about__bottom__text{
+  width:100%;
+  height:30vh;
 }
+}   

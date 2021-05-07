@@ -13,6 +13,21 @@
  <script type="text/javascript" src="slick/slick/slick.min.js#"></script>
 
 <script>
+$(function(){                              
+  $(".header__menu").on("click",function(){
+  $(".header__hidden__list").addClass("active");
+  $(".header__menu").css("display","none");
+  $("main").css("opacity","0.6");
+});
+
+ $(".close__btn").on("click",function(){
+   $(".header__hidden__list").removeClass("active");
+   $("main").css("opacity","1");
+   $(".header__menu").css("display","block");
+
+ });
+});
+
 
 $(function(){
 $("#main__screen").slick({
@@ -29,13 +44,34 @@ $("#main__screen").slick({
 <body>
  <div id="wrapper">
   <header>
-  <ul>
-     <li class="logo">HUMAN BASE OKANO</li>
-     <li>INFORMATION</li>
-     <li>STORE INDEX</li>
+   <ul class="header__main__list">
+     <li class="logo"><a href="top.html">HUMAN BASE OKANO</a></li>
+     <li><a href="info.html">INFORMATION</a></li>
+     <li><a href="store.html">STORE INDEX</a></li>
      <li>RECRUTE</li>
-   </ul>
-  </header>
+    </ul>
+   <div id="header__hidden__content">
+
+    <div class="header__hidden__main">
+     <div class="hidden__title">
+      <h2>HUMAN BASE OKANO</h2>
+     </div>
+     <div class="header__menu">
+      <div></div><div></div><div></div>
+     </div>
+    </div>
+
+    <div class="header__hidden__list">
+     <ul>
+      <li class="close__btn">×</li>
+      <li><a href="info.html">INFORMATION</a><li>
+      <li><a href="store.html">STORE INDEX</a><li>
+      <li>INTERVIEW</li>
+      <li>RECRUTE<li>
+     </ul>
+    </div>
+   </div>
+ </header>
 
   <main>
    <div id="main__screen"><img src="fm3.jpg"><img src ="fm6.jpg"><img src="fm10.jpg"></div>
@@ -49,10 +85,10 @@ $("#main__screen").slick({
         <h3>BUSINESS</h3>
 	<p class="text__eng">~事業内容~</p>
     <p>コンビニエンスチェーンファミリーマートのFC事業<br>
-	  埼玉県内を中心に2021年現在<br>11店舗を経営しています。<br>
+	  埼玉県内を中心に2021年現在<br>13店舗を経営しています。<br>
 	<p>店舗同士が高め合いよりよい店舗運営を目指して、<br>日々切磋琢磨しています。</p>
 	<div class="more__btn">
-	 <h2>MORE INFO</h2>
+	 <h2><a href="info.html">MORE INFO</a></h2>
 	</div>
        </div>
     </div>
@@ -130,8 +166,8 @@ $("#main__screen").slick({
      <div class="footer__list">
        <ul>
          <li><a href="#wrapper">TOP</a></li>
-         <li>INFOMATION</li>
-         <li>STORE INDEX</li>
+         <li><a href="info.html">INFOMATION</a></li>
+         <li><a href="store.html">STORE INDEX</a></li>
          <li>BLOG</li>
        <ul>
     </div>
