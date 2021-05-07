@@ -1,6 +1,7 @@
 body{
   width:100%;
   height:100%;
+  overflow-wrap:break-word;
 }
 #wrapper{
   width:100%%;
@@ -343,11 +344,11 @@ main #about__screen .about__bottom .about__bottom__text p{
 
 @media only screen and (max-width:960px){
 main #about__screen .about__top .about__top__text p{
-  font-size:2vw;
+  font-size:15px;
 }
 
 main #about__screen .about__bottom .about__bottom__text p{
-  font-size:2vw;
+  font-size:15px;
 }    
 }    
 @media only screen and (max-width:700px){
@@ -371,7 +372,7 @@ header #header__hidden__content .header__hidden__main{
 }
 
 header #header__hidden__content .header__hidden__main .hidden__title h2{
-  font-size:3vw;
+  font-size:16px;
   margin-left:5vw;
 }    
 header #header__hidden__content .header__menu div{
@@ -425,10 +426,10 @@ main #main__screen img{
 
 main #about__screen h1{
   margin-top:20vw;
-  font-size:5vw;	
+  font-size:16px;	
 }
 main #about__screen .about__top{
-  height:100vw;
+  height:100%;
   flex-direction:column;
 }     
 main #about__screen .about__top .about__top__image{
@@ -443,28 +444,28 @@ main #about__screen .about__top .about__top__image{
 
 main #about__screen .about__top .about__top__text{
   width:100%;
-  height:30vw;
+  height:100%;
   text-align:center;
   margin-left:0vw;
   margin-top:3vw;
 }
 main #about__screen .about__top .about__top__text h3{
-  font-size:5vw;
+  font-size:16px;
   margin-bottom:1vw;
   margin-top:5vw;
 }
 main #about__screen .about__top .about__top__text .text__eng {
-  font-size:3vw;
+  font-size:15px;
 }    
 main #about__screen .about__top .about__top__text p{
-  font-size:3.5vw;
-  line-height:2em;
+  font-size:15px;
+  line-height:1.5em;
 }
 main #about__screen .about__top .about__top__text .more__btn{
   display:none;
 }
-main .about__bottom{
-  height:40vh;
+main #about__screen .about__bottom{
+  height:100%;
   margin-left:0vw;
   margin-top:20vw;
   margin-bottom:30vw;
@@ -476,6 +477,7 @@ main .about__bottom .about__bottom__image{
 
 main .about__bottom .about__bottom__text{
   width:100%;
+  height:100%;
   text-align:center;
   margin-left:0vw;
 }
@@ -487,9 +489,9 @@ main .about__bottom .about__bottom__text .text__eng {
   font-size:3vw;
   margin-top:2vw;
 }  
-main .about__bottom .about__bottom__text p{
-  font-size:3.5vw;
-  line-height:2em;
+main #about__screen .about__bottom .about__bottom__text p{
+  font-size:15px;
+  line-height:1.5em;
 }
 
 main .about__bottom .about__bottom__text .more__btn{
@@ -523,19 +525,19 @@ main .about__bottom .about__bottom__text .more__btn{
   margin-left:0vw;
 }
 #company__info .company__selection .interview__top .interview__top__text h2{
-  font-size:4vw;
+  font-size:16px;
 }
 #company__info .company__selection .interview__top .interview__top__text h3{
-  font-size:4vw;
+  font-size:16px;
   margin-top:2vw;
 }
 
 #company__info .company__selection .interview__top .interview__top__text .company__name{
-  font-size:4vw;
+  font-size:15px;
 }
 
 #company__info .company__selection .interview__top .interview__top__text .company__text{
-  font-size:3vw;
+  font-size:15px;
   letter-spacing:1px;
   margin-top:2vw;
 }
@@ -554,24 +556,24 @@ main .about__bottom .about__bottom__text .more__btn{
   text-align:center;
 }
 .interview__bottom .interview__bottom__text h2{
-  font-size:4vw;
+  font-size:16px;
 }    
 .interview__bottom .interview__bottom__text h3{
-  font-size:4vw;
+  font-size:16px;
   margin-top:2vw;
 }
 
 .interview__bottom .interview__bottom__text .company__officer{
-  font-size:4vw;
+  font-size:15px;
   margin-top:2vw;
 }
 .interview__bottom .interview__bottom__text .company__officer{
-  font-size:3vw;
+  font-size:16px;
   margin-top:2vw;
 }
 
 .interview__bottom .interview__bottom__text .company__text__bottom{
-  font-size:3vw;
+  font-size:15px;
 }   
 
 .interview__bottom .interview__bottom__text .more__btn{

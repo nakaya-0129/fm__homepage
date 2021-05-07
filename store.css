@@ -1,6 +1,7 @@
 body{                                 
   width:100%;
   height:100%;
+  overflow-wrap:break-word;
 }
 #wrapper{   
   width:100%;
@@ -484,31 +485,31 @@ main #store__index .store__index__bottom
   text-align:center;
 }    
 main #store__index .store__index__bottom .store__index__bottom__text .store__title{
-  font-size:4vw;
+  font-size:16px;
   font-weight:bold;
 }
     
   
 main #store__index .store__index__bottom .store__index__bottom__text .store__text{
-  font-size:1.8vw;
+  font-size:15px;
   line-height:3em;
   margin-top:3vw;
 }
 
 main #store__list h2{
-  font-size:3vw;
+  font-size:15px;
 }
 main #store__list h3{
-  margin-bottom:4vw;
+  margin-bottom:16px;
 }
 main #store__list .store__list__content .store__area__souka{
   height:100%;
 }    
 main #store__list .store__list__content .store__area__souka h2{
-  font-size:2vw;
+  font-size:15px;
 }    
 main #store__list .store__list__content .store__area__souka h3 span{
-  font-size:2.5vw;
+  font-size:16px;
 }    
 main #store__list .store__list__content .store__area__souka ul{
   flex-direction:column;
@@ -521,21 +522,22 @@ main #store__list .store__list__content .store__area__souka ul li{
 }
 
 main #store__list .store__list__content .store__area__souka ul li .store__address{
-  font-size:2vw;
+  font-size:15px;
 }
 
 main #store__list .store__list__content .store__area__souka ul li .store__tel{
-   font-size:2vw;
+   font-size:15px;
 }    
 main #store__list .store__list__content .store__area__souka ul li .store__info{
-  font-size:2vw;
+  font-size:15px;
 }
 
 main #store__list .store__list__content .store__area__souka ul li .store__recrute{
-  font-size:2vw;
+  font-size:15px;
 }    
 main #store__list .store__list__content .store__area__souka ul li .store__name{
-  font-size:2vw;
+  font-size:15px;
+  margin-top:2vw;
 }    
 main #store__list .store__list__content .store__area__souka ul li img{
   width:100%;
@@ -544,10 +546,10 @@ main #store__list .store__list__content .store__area__urawa{
   height:100%;
 }
 main #store__list .store__list__content .store__area__urawa h2{
-  font-size:2vw;
+  font-size:15px;
 }    
 main #store__list .store__list__content .store__area__urawa h3 span{
-  font-size:2.5vw;
+  font-size:16px;
 }    
 
 main #store__list .store__list__content .store__area__urawa ul {
@@ -559,20 +561,21 @@ main #store__list .store__list__content .store__area__urawa ul li{
   text-align:center;
 }
 main #store__list .store__list__content .store__area__urawa ul li .store__address{
-  font-size:2vw;
+  font-size:15px;
 }
 
 main #store__list .store__list__content .store__area__urawa ul li .store__tel{
-   font-size:2vw;
+   font-size:15px;
 }    
 main #store__list .store__list__content .store__area__urawa ul li .store__info{
-  font-size:2vw;
+  font-size:15px;
 }    
 main #store__list .store__list__content .store__area__urawa ul li .store__recrute{
-  font-size:2vw;
+  font-size:15px;
 }    
 main #store__list .store__list__content .store__area__urawa ul li .store__name{
-  font-size:2vw;
+  font-size:15px;
+  margin-top:2vw;
 }    
 
 main #store__list .store__list__content .store__area__urawa ul li img{
@@ -585,10 +588,10 @@ main #store__list .store__list__content .store__area__iwatuki ul {
   flex-direction:column;
 }
 main #store__list .store__list__content .store__area__iwatuki h2{
-  font-size:2vw;
+  font-size:15px;
 }    
 main #store__list .store__list__content .store__area__iwatuki h3 span{
-  font-size:2.5vw;
+  font-size:16px;
 }    
 
 main #store__list .store__list__content .store__area__iwatuki ul li{
@@ -597,20 +600,21 @@ main #store__list .store__list__content .store__area__iwatuki ul li{
   text-align:center;
 }
 main #store__list .store__list__content .store__area__iwatuki ul li .store__address{
-  font-size:2vw;
+  font-size:15px;
 }
 
 main #store__list .store__list__content .store__area__iwatuki ul li .store__tel{
-   font-size:2vw;
+   font-size:15px;
 }    
 main #store__list .store__list__content .store__area__iwatuki ul li .store__info{
-  font-size:2vw;
+  font-size:15px;
 }    
 main #store__list .store__list__content .store__area__iwatuki ul li .store__name{
-  font-size:2vw;
+  font-size:15px;
+  margin-top:2vw;
 }    
 main #store__list .store__list__content .store__area__iwatuki ul li .store__recrute{
-   font-size:2vw;   
+   font-size:15px;   
 }
 main #store__list .store__list__content .store__area__iwatuki ul li img{
   width:100%;   
@@ -619,10 +623,10 @@ main #store__list .store__list__content .store__area__oomiya{
   height:100%;
 }
 main #store__list .store__list__content .store__area__oomiya h2{
-  font-size:2vw;
+  font-size:15px;
 }    
 main #store__list .store__list__content .store__area__oomiya h3 span{
-  font-size:2.5vw;
+  font-size:16px;
 }    
 
 main #store__list .store__list__content .store__area__oomiya ul {
@@ -634,20 +638,21 @@ main #store__list .store__list__content .store__area__oomiya ul li{
   text-align:center;
 }
 main #store__list .store__list__content .store__area__oomiya ul li .store__address{
-  font-size:2vw;
+  font-size:15px;
 }
 
 main #store__list .store__list__content .store__area__oomiya ul li .store__tel{
-   font-size:2vw;
+   font-size:15px;
 }    
 main #store__list .store__list__content .store__area__oomiya ul li .store__info{
-  font-size:2vw;
+  font-size:15px;
 }    
 main #store__list .store__list__content .store__area__oomiya ul li .store__name{
-  font-size:2vw;
+  font-size:15px;
+  margin-top:2vw;
 }    
 main #store__list .store__list__content .store__area__oomiya ul li .store__recrute{
-  font-size:2vw;
+  font-size:15px;
 }
 main #store__list .store__list__content .store__area__oomiya ul li img{
   width:100%;   
@@ -656,10 +661,10 @@ main #store__list .store__list__content .store__area__tokyo{
   height:100%;
 }
 main #store__list .store__list__content .store__area__tokyo h2{
-  font-size:2vw;
+  font-size:15px;
 }    
 main #store__list .store__list__content .store__area__tokyo h3 span{
-  font-size:2.5vw;
+  font-size:16px;
 }    
 
 main #store__list .store__list__content .store__area__tokyo ul {
@@ -671,20 +676,21 @@ main #store__list .store__list__content .store__area__tokyo ul li{
   text-align:center;
 }
 main #store__list .store__list__content .store__area__tokyo ul li .store__address{
-  font-size:2vw;
+  font-size:15px;
 }
 
 main #store__list .store__list__content .store__area__tokyo ul li .store__tel{
-   font-size:2vw;
+   font-size:15px;
 }    
 main #store__list .store__list__content .store__area__tokyo ul li .store__info{
-  font-size:2vw;
+  font-size:15px;
 }    
 main #store__list .store__list__content .store__area__tokyo ul li .store__name{
-  font-size:2vw;
+  font-size:15px;
+  margin-top:2vw;
 }    
 main #store__list .store__list__content .store__area__tokyo ul li .store__recrute{
-  font-size:2vw;
+  font-size:15px;
 }
 main #store__list .store__list__content .store__area__tokyo ul li img{
   width:100%;   
@@ -712,7 +718,7 @@ header #header__hidden__content .header__hidden__main{
 }
  
 header #header__hidden__content .header__hidden__main .hidden__title h2{
-  font-size:3vw;
+  font-size:16px;
   margin-left:5vw;
 }
 header #header__hidden__content .header__menu div{
@@ -754,7 +760,12 @@ header #header__hidden__content .header__hidden__list ul li{
   margin-top:5vw;
   text-align:center;
 }
-
+main #store__index .store__index__top h2{
+  font-size:16px;
+}
+main #store__index .store__index__top h3{
+  font-size:15px;
+}    
 main #store__index .store__index__top{
   height:65vw;
 }
@@ -771,22 +782,23 @@ main #store__index .store__index__bottom
   text-align:center;
 }    
 main #store__index .store__index__bottom .store__index__bottom__text .store__title{
-  font-size:4vw;
+  font-size:16px;
   font-weight:bold;
 }
     
   
 main #store__index .store__index__bottom .store__index__bottom__text .store__text{
-  font-size:1.8vw;
-  line-height:3em;
+  font-size:15px;
+  line-height:1.5em;
   margin-top:3vw;
   margin-bottom:10vw;
 }
 
 main #store__list h2{
-  font-size:3vw;
+  font-size:15px;
 }
 main #store__list h3{
+  font-size:15px;
   margin-bottom:5vw;
 }
 main #store__list .store__list__content .store__area__souka{

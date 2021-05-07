@@ -1,6 +1,7 @@
 body{
   width:100%;
   height:100%;
+  overflow-wrap:break-word;
 }
 #wrapper{
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS     PMincho", serif;
@@ -305,7 +306,7 @@ header #header__hidden__content .header__hidden__main{
 }
  
 header #header__hidden__content .header__hidden__main .hidden__title h2{
-  font-size:3vw;
+  font-size:16px;
   margin-left:5vw;
 }    
 header #header__hidden__content .header__menu div{
@@ -354,7 +355,7 @@ main .corpolate__top{
   width:100%;
   margin-left:0vw;
   margin-top:0vw;
-  height:50vh;
+  height:60vh;
 }
     
 main .corpolate__top .corpolate__top__image{
@@ -368,20 +369,22 @@ main .corpolate__top .corpolate__top__text{
 
 main .corpolate__top .corpolate__top__text h2{
   margin-left:0vw;
-  font-size:4vw;
+  font-size:16px;
   font-weight:bold;
 }
 main .corpolate__top .corpolate__top__text h3{
   margin-left:0vw;
-  font-size:3vw;
+  font-size:15px;
 }    
 main .corpolate__top .corpolate__top__text p{
-  line-height:4em;
+  line-height:1.5em;
+  font-size:15px;
+  margin-left:0vw;
 }
 main .corpolate__bottom{
   flex-direction:column;
   width:100%;
-  height:50vh;
+  height:70vh;
   margin-left:0vw;
   margin-top:5vw;
 }
@@ -396,34 +399,49 @@ main .corpolate__bottom .corpolate__bottom__text{
   text-align:center;
 }    
 main .corpolate__bottom .corpolate__bottom__text h2{
-  font-size:4vw;
+  font-size:16px;
   font-weight:bold;
   margin-top:5vw;
   margin-left:0vw;
 }
 main .corpolate__bottom .corpolate__bottom__text h3{
-  font-size:3vw;
+  font-size:15px;
   margin-left:0vw;
 }    
 main .corpolate__bottom .corpolate__bottom__text p{
-  line-height:4em;
+  line-height:1.5em;
+  font-size:15px;
   margin-left:0vw;
 }
 
 main #corpolate__overview{
-  margin-top:15vw;
-  margin-left:28%;
-  height:25vh;
+  margin-top:20vw;
+  margin-left:10vw;
+  height:50vh;
 }
 main #corpolate__overview h2{
-  font-size:4vw;
-  margin-left:-3vw;
+  font-size:16px;
+  margin-left:15vw;
 }
 
 main #corpolate__overview h3{
-  font-size:3vw;
-  margin-left:13vw;
+  font-size:15px;
+  margin-left:27vw;
+}
+    
+main #corpolate__overview ul .two__line{
+  font-size:15px;  
+}
+main #corpolate__overview ul .three__line{
+  font-size:15px;
 }    
+main #corpolate__overview ul .fourth__line{
+  font-size:15px;
+}    
+main #corpolate__overview ul .fivth__line{
+  font-size:15px;
+}
+
 footer{
   height:60vw;
 }
@@ -439,6 +457,7 @@ footer #footer__content .footer__list ul{
 }    
 footer #footer__content .footer__list ul li{
    padding-top:3vw;
+   font-size:15px;
 }
  
 footer #footer__content .footer__list ul li:hover{
@@ -446,14 +465,32 @@ footer #footer__content .footer__list ul li:hover{
 }
 }
 @media only screen and (max-width:300px){
-
+header #header__hidden__content .header__hidden__list.active{
+  height:41vh;    
+}
+main #main__corpolate .corpolate__image{
+  height:40vh;
+}
 
 main #corpolate__overview {
-  margin-left:20%;   
+  margin-left:8vw;   
 }
+main #corpolate__overview ul .two__line{
+  font-size:13px;  
+}
+main #corpolate__overview ul .three__line{
+  font-size:13px;
+}    
+main #corpolate__overview ul .fourth__line{
+  font-size:13px;
+}    
+main #corpolate__overview ul .fivth__line{
+  font-size:13px;
+}
+
 main #corpolate__overview h2{
-  margin-left:3vw;
+  margin-left:8vw;
 }    
 main #corpolate__overview h3{
-  margin-left:20vw;
+  margin-left:25vw;
 }
