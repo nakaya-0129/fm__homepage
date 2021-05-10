@@ -416,17 +416,17 @@ main .corpolate__bottom .corpolate__bottom__text p{
 
 main #corpolate__overview{
   margin-top:20vw;
-  margin-left:10vw;
-  height:50vh;
+  margin-left:13%;
+  height:40vh;
 }
 main #corpolate__overview h2{
   font-size:16px;
-  margin-left:15vw;
+  margin-left:8%;
 }
 
 main #corpolate__overview h3{
   font-size:15px;
-  margin-left:27vw;
+  margin-left:23%;
 }
     
 main #corpolate__overview ul .two__line{
@@ -443,14 +443,17 @@ main #corpolate__overview ul .fivth__line{
 }
 
 footer{
-  height:60vw;
+  height:40vw;
 }
 footer #footer__content .footer__image{
-  top:3vw;
+  display:none;
 }
 footer #footer__content .footer__list{
   height:15vh;
-} 
+}
+footer #footer__content .footer__info{
+  display:none;
+}
 footer #footer__content .footer__list ul{
    flex-direction:column;
    border-top:1px solid #bbb;

@@ -67,7 +67,7 @@ main #main__screen img{
   background-image:url("fm5.jpg");
   background-size:cover;
   background-position:center center;
-  width: 48%;
+  width: 45%;
   height:50vh;
   margin-left:5vw;
     }
@@ -92,7 +92,7 @@ main #main__screen img{
 .about__top__text .more__btn{
   width:15vw;
   height:4vw;
-  margin:10vw 0vw 0vw 22.5vw;
+  margin:10vw 0vw 0vw 25vw;
   background-color:#000;
   text-align:center;
 }
@@ -335,10 +335,21 @@ main #about__screen .about__bottom .about__bottom__image{
 }
 
 main #about__screen .about__top .about__top__text p{
-  font-size:1.8vw;
+  font-size:15px;
 }
 main #about__screen .about__bottom .about__bottom__text p{
-  font-size:1.8vw;
+  font-size:15px;
+}
+main .company__selection .interview__top .interview__top__text .company__text{
+  font-size:13px;
+  line-height:1.5em;
+}
+main .company__selection .interview__bottom{
+  margin-top:5vw;
+}   
+main .company__selection .interview__bottom .interview__bottom__text .company__text__bottom{
+  font-size:13px;
+  line-height:1.5em;
 }
 }
 
@@ -580,21 +591,24 @@ main .about__bottom .about__bottom__text .more__btn{
   display:none;
 }
 footer{
-  height:60vw;
+  height:40vw;
 }
 footer #footer__content .footer__image{
-  top:3vw;
+  display:none;
 }
 footer #footer__content .footer__list{
-  height:15vh;
+  height:20vh;
 }
-
+footer #footer__content .footer__info{
+  display:none;
+}
 footer #footer__content .footer__list ul{
   flex-direction:column;
   border-top:1px solid #bbb;
 }    
 footer #footer__content .footer__list ul li{
   padding-top:3vw;
+  font-size:15px;
 }
 
 footer #footer__content .footer__list ul li:hover{

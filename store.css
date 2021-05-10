@@ -908,10 +908,13 @@ main #store__list .store__list__content .store__area__tokyo ul li img{
   height:30vw;
 }
 footer{
-  height:60vw;                                
+  height:40vw;                                
 }
 footer #footer__content .footer__image{       
-  top:3vw;                                    
+  display:none;                                 
+}
+footer #footer__content .footer__info{
+  display:none;
 }
 footer #footer__content .footer__list{        
   height:15vh;                                
@@ -922,7 +925,8 @@ footer #footer__content .footer__list ul{
    border-top:1px solid #bbb;
 }    
 footer #footer__content .footer__list ul li{  
-   padding-top:3vw;                            
+   padding-top:3vw;
+   font-size:15px;
 }
    
 footer #footer__content .footer__list ul li:hover{
