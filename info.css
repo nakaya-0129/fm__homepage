@@ -42,7 +42,7 @@ main #main__corpolate{
 main #main__corpolate .corpolate__image{
   width:100%;
   height:51vw;
-  background-image:url("fm10.jpg");
+  background-image:url("image/fm10.jpg");
   background-position:center center;
   background-size:cover;
 }    
@@ -68,7 +68,7 @@ main .corpolate__top{
   justify-content:center;
 }    
 main .corpolate__top .corpolate__top__image{
-  background-image:url("fm3.jpg");
+  background-image:url("image/fm3.jpg");
   background-position:center center;
   background-size:cover;
   width:35%;
@@ -108,7 +108,7 @@ main .corpolate__bottom{
   justify-content:center;
 }
 main .corpolate__bottom .corpolate__bottom__image{
-   background-image:url("fm3.jpg");
+   background-image:url("image/fm3.jpg");
   background-position:center center;
   background-size:cover;
   width:35%;
@@ -216,7 +216,7 @@ footer{
 #footer__content .footer__image{      
    width:25vw;
    height:20vw;
-   background-image:url("fm11.jpg");
+   background-image:url("image/fm11.jpg");
    background-position:center center;
    background-size:cover;
    position:absolute;
@@ -233,11 +233,70 @@ footer{
   font-size:1.5vw;
 }
 
-@media only screen and (max-width:1030px)
-{
+@media only screen and (max-width:1030px){
+header{
+   position:relative;    
+}    
+header .header__main__list{
+   display:none;
+}
 header #header__hidden__content{
+   display:block;
+   width:100%;
+   height:100%;
+}
+header #header__hidden__content .header__hidden__main{
+   width:100%;
+   height:100%;
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+}
+ 
+header #header__hidden__content .header__hidden__main .hidden__title h2{
+  font-size:16px;
+  margin-left:5vw;
+}    
+header #header__hidden__content .header__menu div{
+   width:5vw;
+   height:1vw;
+   margin-right:5vw;
+   border-top:2px solid #000;
+   padding-bottom:1vw;
+}    
+
+header #header__hidden__content .header__hidden__list{
    display:none;
 }    
+header #header__hidden__content .header__hidden__list.active{
+   display:block;
+   width:100%;
+   height:60vw;
+   background-color:#fff;
+   z-index:3;
+   position:absolute;
+   animation:listAnimation 0.5s;
+}
+@keyframes listAnimation{
+   0%{
+       transform:translateX(-50vw);
+    }
+   100%{
+     transform:translateX(0vw);
+    }
+}
+ 
+header #header__hidden__content .header__hidden__list ul .close__btn{
+   font-size:10vw;
+   margin-top:0vw;
+   margin-left:85vw;
+}    
+header #header__hidden__content .header__hidden__list ul li{
+   font-size:3vw;
+   font-size:bold;
+   margin-top:5vw;
+   text-align:center;
+}   
    
 main #corpolate__overview{
   height:30vh;
@@ -266,10 +325,7 @@ main #corpolate__overview ul .fivth__line{
   font-size:2vw;
 }
 }
-@media only screen and (max-width:970px){
-header #header__hidden__content{
-   display:none;
-}     
+@media only screen and (max-width:970px){     
 main .corpolate__top .corpolate__top__text p{
   font-size:2vw;
   line-height:1.5em;

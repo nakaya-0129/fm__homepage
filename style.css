@@ -64,7 +64,7 @@ main #main__screen img{
   width:100%;
 }
 .about__top__image{
-  background-image:url("fm5.jpg");
+  background-image:url("image/fm5.jpg");
   background-size:cover;
   background-position:center center;
   width: 45%;
@@ -113,7 +113,7 @@ main #main__screen img{
   margin:5vw 0vw 0vw 5vw;
     }
 .about__bottom__image{
-   background-image:url("fm4.jpg");
+   background-image:url("image/fm4.jpg");
    background-size:cover;
    background-position:center center;
    width:45%;
@@ -178,7 +178,7 @@ p{
   height:100%;
 }
 .company__selection .interview__top .interview__top__img{
-  background-image:url("fm8.jpg");
+  background-image:url("image/fm8.jpg");
   background-position:center center;
   background-size:cover;
   width:45%;
@@ -216,7 +216,7 @@ p{
   justify-content:center;
 }
 .interview__bottom__img{
-  background-image:url("fm7.jpg");
+  background-image:url("image/fm7.jpg");
   background-position:center center;
   background-size:cover;
   width:45%;
@@ -297,7 +297,7 @@ footer{
 #footer__content .footer__image{
   width:25vw;
   height:20vw;
-  background-image:url("fm11.jpg");
+  background-image:url("image/fm11.jpg");
   background-position:center center;
   background-size:cover;
   position:absolute;
@@ -315,6 +315,71 @@ font-size:1.5vw;
 }
 
 @media only screen and (max-width:1030px){
+header{
+  position:relative;	
+}    
+ header .header__main__list{
+  display:none;
+ }
+header #header__hidden__content{
+  display:block;
+  width:100%;
+  height:100%;
+}
+header #header__hidden__content .header__hidden__main{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+header #header__hidden__content .header__hidden__main .hidden__title h2{
+  font-size:16px;
+  margin-left:5vw;
+}    
+header #header__hidden__content .header__menu div{
+  width:5vw;
+  height:1vw;
+  margin-right:5vw;
+  border-top:2px solid #000;
+  padding-bottom:1vw;
+}    
+
+header #header__hidden__content .header__hidden__list{
+  display:none;
+}    
+header #header__hidden__content .header__hidden__list.active{
+   display:block;
+   width:100%;
+   height:105vw;
+   background-color:#fff;
+   z-index:3;
+   position:absolute;
+   animation:listAnimation 0.5s;
+}
+@keyframes listAnimation{
+  0%{
+    transform:translateX(-50vw);
+  }
+  100%{
+    transform:translateX(0vw);
+  }
+}
+
+header #header__hidden__content .header__hidden__list ul .close__btn{
+  font-size:10vw;
+  margin-top:0vw;
+  margin-left:85vw;
+}    
+header #header__hidden__content .header__hidden__list ul li{
+  font-size:3vw;
+  font-size:bold;
+  margin-top:5vw;
+  text-align:center;
+}
+   
+   
 main #about__screen{
   height:100%;
 }
@@ -447,7 +512,7 @@ main #about__screen .about__top .about__top__image{
   width:100%;
   height:60vw;
   margin-left:0vw;
-  background-image:url("fm_top.jpg");
+  background-image:url("image/fm_top.jpg");
   background-position:center center;
   background-size:cover;
  
