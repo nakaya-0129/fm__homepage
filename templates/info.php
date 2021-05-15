@@ -1,16 +1,21 @@
+<?php
+/*
+* Template Name: インフォメーション
+*/
+?>
 <!doctype html>                                                                       
 <html>
  <head>
-  <link rel="stylesheet" href="reset.css" media="all">
-  <link rel="stylesheet" href="info.css" media="all">
-  <meta charset ="utf-8">
+  <link rel="stylesheet" href="<?= get_template_directory_uri();?>/static/css/reset.css" media="all">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/static/css/info.css ?ver=<?php echo date('U'); ?>">
+ <meta charset ="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <link href="slick/slick/slick-theme.css" rel="stylesheet" type="text/css">
-  <link href="slick/slick/slick.css" rel="stylesheet" type="text/css">
+  <link href="<?= get_template_directory_uri();?>/static/js/slick/slick/slick-theme.css" rel="stylesheet" type="text/css">
+  <link href="<?= get_template_directory_uri();?>/static/js/slick/slick/slick.css" rel="stylesheet" type="text/css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-  <script type="text/javascript" src="slick/slick/slick.min.js#"></script>
+  <script type="text/javascript" src="<?= get_template_directory_uri();?>/static/js/slick/slick/slick.min.js#"></script>
 
   <script>
 $(function(){                              
@@ -34,10 +39,10 @@ $(function(){
   <div id ="wrapper">
   <header>
      <ul class="header__main__list">
-       <li class="logo"><a href="top.html">HUMAN BASE OKANO</a></li>
-       <li><a href="top.html">TOP</a></li>
-       <li><a href="store.html">STORE INDEX</a></li>
-       <li><a href="interview.html">INTERVIEW</a></li>
+       <li class="logo"><a href="/トップページ">HUMAN BASE OKANO</a></li>
+       <li><a href="/トップページ">TOP</a></li>
+       <li><a href="/店舗紹介">STORE INDEX</a></li>
+       <li><a href="/インタビュー">INTERVIEW</a></li>
        <li>RECRUTE</li>
       </ul>
      <div id="header__hidden__content">
@@ -54,9 +59,9 @@ $(function(){
       <div class="header__hidden__list">
        <ul>
         <li class="close__btn">×</li>
-        <li><a href="top.html">TOP</a><li>
-        <li><a href="store.html">STORE INDEX</a><li>
-	<li><a href="interview.html">INTERVIEW</a></li>
+        <li><a href="/トップページ">TOP</a><li>
+        <li><a href="/店舗紹介">STORE INDEX</a><li>
+	<li><a href="/インタビュー">INTERVIEW</a></li>
         <li>RECRUTE<li>
        </ul>
       </div>
@@ -122,9 +127,9 @@ $(function(){
       </div>
       <div class="footer__list">
         <ul>
-          <li><a href="top.html">TOP</a></li>
+          <li><a href="/トップページ">TOP</a></li>
           <li><a href="#wrapper">INFOMATION</a></li>
-          <li><a href="store.html">STORE INDEX</a></li>
+          <li><a href="/店舗紹介">STORE INDEX</a></li>
           <li>BLOG</li>
         <ul>
      </div>

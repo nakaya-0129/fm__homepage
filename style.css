@@ -1,3 +1,7 @@
+/*
+* Themes Name :fm_homepage
+*/
+
 body{
   width:100%;
   height:100%;
@@ -64,7 +68,7 @@ main #main__screen img{
   width:100%;
 }
 .about__top__image{
-  background-image:url("image/fm5.jpg");
+  background-image:url("static/images/fm5.jpg");
   background-size:cover;
   background-position:center center;
   width: 45%;
@@ -113,7 +117,7 @@ main #main__screen img{
   margin:5vw 0vw 0vw 5vw;
     }
 .about__bottom__image{
-   background-image:url("image/fm4.jpg");
+   background-image:url("static/images/fm4.jpg");
    background-size:cover;
    background-position:center center;
    width:45%;
@@ -178,7 +182,7 @@ p{
   height:100%;
 }
 .company__selection .interview__top .interview__top__img{
-  background-image:url("image/fm8.jpg");
+  background-image:url("static/images/fm8.jpg");
   background-position:center center;
   background-size:cover;
   width:45%;
@@ -216,7 +220,7 @@ p{
   justify-content:center;
 }
 .interview__bottom__img{
-  background-image:url("image/fm7.jpg");
+  background-image:url("static/images/fm7.jpg");
   background-position:center center;
   background-size:cover;
   width:45%;
@@ -297,7 +301,7 @@ footer{
 #footer__content .footer__image{
   width:25vw;
   height:20vw;
-  background-image:url("image/fm11.jpg");
+  background-image:url("static/images/fm11.jpg");
   background-position:center center;
   background-size:cover;
   position:absolute;
@@ -512,7 +516,7 @@ main #about__screen .about__top .about__top__image{
   width:100%;
   height:60vw;
   margin-left:0vw;
-  background-image:url("image/fm_top.jpg");
+  background-image:url("static/images/fm_top.jpg");
   background-position:center center;
   background-size:cover;
  
