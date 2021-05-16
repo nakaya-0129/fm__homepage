@@ -229,7 +229,7 @@ p{
 }
 .interview__bottom .interview__bottom__text{
   width:50%;
-  height:40vw;
+  height:50vw;
   margin-left:5vw;
 }
 
@@ -339,7 +339,7 @@ header #header__hidden__content .header__hidden__main{
 }
 
 header #header__hidden__content .header__hidden__main .hidden__title h2{
-  font-size:16px;
+  font-size:20px;
   margin-left:5vw;
 }    
 header #header__hidden__content .header__menu div{
@@ -388,15 +388,24 @@ main #about__screen{
   height:100%;
 }
 main #about__screen .about__top{
-  height:40vh;
+  height:60vh;
 }
 main #about__screen .about__top__image{
   height:30vh;
   margin-top:0vw;
 }
     
+main #about__screen .about__top .about__top__text .more__btn{
+  width:25vw;
+  height:6vw;
+  padding:1vw;
+  margin:10vw 0vw 0vw 15vw;
+}    
+main #about__screen .about__top .about__top__text .more__btn h2{
+  font-size:16px;
+}    
 main #about__screen .about__bottom{
-  height:40vh;
+  height:60vh;
 }
 
 main #about__screen .about__bottom .about__bottom__image{
@@ -404,21 +413,62 @@ main #about__screen .about__bottom .about__bottom__image{
 }
 
 main #about__screen .about__top .about__top__text p{
-  font-size:15px;
+  font-size:18px;
 }
 main #about__screen .about__bottom .about__bottom__text p{
-  font-size:15px;
+  font-size:18px;
+}
+main #about__screen .about__bottom .about__bottom__text .more__btn{
+  width:25vw;
+  height:6vw;
+  padding:1vw;
+  margin: 10vw 0vw 0vw 15vw;
+}
+main #about__screen .about__bottom .about__bottom__text .more__btn h2{
+  font-size:16px;
+}    
+main .company__selection .interview__top .interview__top__text h2{
+  font-size:20px;
+}    
+main .company__selection .interview__top .interview__top__text .company__text h3{
+  font-size:18px;
+}    
+main .company__selection .interview__top .interview__top__text .company__name{
+  font-size:18px;
 }
 main .company__selection .interview__top .interview__top__text .company__text{
-  font-size:13px;
+  font-size:18px;
   line-height:1.5em;
 }
 main .company__selection .interview__bottom{
   margin-top:5vw;
 }   
+main .company__selection .interview__bottom .interview__bottom__text h2{
+  font-size:20px;
+}    
+main .company__selection .interview__bottom .interview__bottom__text h3{
+  font-size:18px;
+}    
+main .company__selection .interview__bottom .interview__bottom__text .company__officer{
+  font-size:18px;
+}    
 main .company__selection .interview__bottom .interview__bottom__text .company__text__bottom{
-  font-size:13px;
+  font-size:18px;
+  height:50vh;
   line-height:1.5em;
+}
+
+main .company__selection .interview__bottom .interview__bottom__text .more__btn {
+  width:25vw;
+  height:6vw;
+  padding:1vw;
+  margin:-2vw 0vw 0vw 15vw;
+}    
+main .company__selection .interview__bottom .interview__bottom__text .more__btn h2{
+  font-size:16px;
+}
+footer{
+  margin-top:10vw;
 }
 }
 
@@ -430,6 +480,15 @@ main #about__screen .about__top .about__top__text p{
 main #about__screen .about__bottom .about__bottom__text p{
   font-size:15px;
 }    
+#company__info .company__selection .interview__top .interview__top__text{
+  height:85vh;
+}
+main .company__selection .interview__bottom .interview__bottom__text {
+  height:60vh;
+}
+footer{
+  margin-top:10vw;
+}
 }    
 @media only screen and (max-width:700px){
 header{
@@ -605,20 +664,22 @@ main .about__bottom .about__bottom__text .more__btn{
   margin-left:0vw;
 }
 #company__info .company__selection .interview__top .interview__top__text h2{
-  font-size:16px;
+  font-size:20px;
 }
 #company__info .company__selection .interview__top .interview__top__text h3{
-  font-size:16px;
+  font-size:18px;
   margin-top:2vw;
 }
 
 #company__info .company__selection .interview__top .interview__top__text .company__name{
-  font-size:15px;
+  font-size:18px;
 }
 
 #company__info .company__selection .interview__top .interview__top__text .company__text{
   font-size:15px;
   letter-spacing:1px;
+  line-height:2em;
+  height:70vh;
   margin-top:2vw;
 }
 .interview__bottom{
@@ -636,15 +697,15 @@ main .about__bottom .about__bottom__text .more__btn{
   text-align:center;
 }
 .interview__bottom .interview__bottom__text h2{
-  font-size:16px;
+  font-size:20px;
 }    
 .interview__bottom .interview__bottom__text h3{
-  font-size:16px;
+  font-size:18px;
   margin-top:2vw;
 }
 
 .interview__bottom .interview__bottom__text .company__officer{
-  font-size:15px;
+  font-size:18px;
   margin-top:2vw;
 }
 .interview__bottom .interview__bottom__text .company__officer{
@@ -655,6 +716,11 @@ main .about__bottom .about__bottom__text .more__btn{
 .interview__bottom .interview__bottom__text .company__text__bottom{
   font-size:15px;
 }   
+main .company__selection .interview__bottom .interview__bottom__text .company__text__bottom{
+  font-size:15px;
+  line-height:2em;
+  height:50vh;
+}
 
 .interview__bottom .interview__bottom__text .more__btn{
   display:none;

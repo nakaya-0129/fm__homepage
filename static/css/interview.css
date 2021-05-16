@@ -1,0 +1,866 @@
+ body{                   
+  width:100%;
+  height:100%;
+  overflow-wrap:normal;
+}
+#wrapper{
+  width:100%;
+  height:100%;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS     PMinc    ho", serif;
+  overflow:hidden;
+}
+header{
+  width:100%;
+  height:8vh;
+}
+header #header__hidden__content{
+  display:none;
+}
+header .header__main__list{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+header ul .logo{
+  font-size:2vw;
+  color:blue;
+ }
+ header ul li{
+  font-size:1.5vw;
+ }
+ header ul li:hover{
+  opacity:0.6;
+ }
+main{
+  width:100%;
+  height:100%;
+ }
+main #interview__content{
+  width:100%;
+  height:100%;
+}
+main #interview__content h1{
+  text-align:center;
+  font-size:2.5vw;
+  font-weight:bold;
+  margin-top:5vw;
+  margin-bottom:10vw;
+}
+.interview__top__content{
+  display:flex;
+  justify-content:center;
+  margin:auto;
+  width:80%;
+  height:35vh;
+}
+
+main #interview__content .interview__top__content .interview__image__left{
+   width:50%;
+   height:30vw;
+   background-image:url("../../static/images/fm4.jpg");
+   background-position:center center;
+   background-size:cover;
+ }
+
+main #interview__content .interview__top__content .interview__image__right{
+   width:50%;
+   height:30vw;
+   background-image:url("../../static/images/fm6.jpg");
+   background-position:center center;
+   background-size:cover;
+}
+main #interview__content .interview__title{
+  width:100%;
+  height:30vh;
+  margin-top:20vw;
+  text-align:center;
+}
+main #interview__content .interview__title .first__text{
+  font-size:2vw;
+  font-weight:bold;
+  margin-top:3vw;
+}
+main #interview__content .interview__title .second__text{
+  font-size:2vw;
+  font-weight:bold;
+  margin-top:2vw;
+}    
+main #interview__content .interview__title .third__text{
+  font-size:2vw;
+  font-weight:bold;
+  margin-top:2vw;
+}    
+main #interview__content .interview__title p{
+  font-size:1.5vw;
+  margin-top:2vw;
+}
+
+main #interview__content .interview__title .subject__text{
+  margin-top:0vw;
+}    
+main #interview__content .interview__title .main__subject{
+  font-size:2vw;
+  font-weight:bold;
+}
+
+main #interview__content .interview__title .main__subject span{
+  margin-left:2vw;
+}    
+main #main__interview__screen{
+  width:100%;
+  height:100%;
+  margin-top:25vw;
+}
+main #main__interview__screen h2{
+  font-size:2vw;
+  font-weight:bold;
+  text-align:center;
+}
+main #main__interview__screen .interview__screen__manager{
+  width:100%;
+  height:40vh;
+}
+main #main__interview__screen .interview__screen__manager ul{
+   width:100%;
+   height:100%;
+   display:flex;
+   justify-content:space-around;
+}    
+main #main__interview__screen .interview__screen__manager ul li{
+  width:30%;
+  height:100%;
+  margin-top:2vw;
+}    
+main #main__interview__screen .interview__screen__manager ul img{
+  width:100%;
+  height:20vw;
+}    
+main #main__interview__screen .interview__screen__manager ul li p{
+  font-size:2vw;
+  margin-top:2vw;
+}
+main #main__interview__screen .interview__screen__staff{
+  width:100%;
+  height:100%;
+  margin-top:20vw;
+}
+
+main #main__interview__screen .interview__screen__staff h1{
+  font-size:2vw;
+  font-weight:bold;
+  text-align:center;
+  margin-bottom:3vw;
+}    
+main #main__interview__screen .interview__screen__staff .member__index1{
+  width:100%;
+  height:60vw;
+  display:flex;
+  justify-content:space-around;;
+} 
+
+main #main__interview__screen .interview__screen__staff .member__index1 .member__inde1__left{
+  width:45%;
+  height:100%;;
+}    
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__left ul{
+  display:flex;
+  flex-direction:column;
+}    
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__left ul li p{
+  margin-top:2vw;
+  font-size:1.8vw;
+}   
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__right{
+  width:40%;
+  height:100%;
+  margin-left:-20vw;
+}    
+ main #main__interview__screen .interview__screen__staff .member__index2{
+  width:100%;
+  height:60vw;
+  display:flex;
+  justify-content:space-around;;
+} 
+
+main #main__interview__screen .interview__screen__staff .member__index2 .member__inde2__left{
+  width:45%;
+  height:100%;;
+}    
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__left ul{
+  display:flex;
+  flex-direction:column;
+}    
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__left ul li p{
+  margin-top:2vw;
+  font-size:1.8vw;
+}   
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__right{
+  width:40%;
+  height:100%;
+  margin-left:-20vw;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3{
+  width:100%;
+  height:60vw;
+  display:flex;
+  justify-content:space-around;;
+} 
+
+main #main__interview__screen .interview__screen__staff .member__index3 .member__inde3__left{
+  width:45%;
+  height:100%;;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left ul{
+  display:flex;
+  flex-direction:column;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left ul li p{
+  margin-top:2vw;
+  font-size:1.8vw;
+}   
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__right{
+  width:40%;
+  height:100%;
+  margin-left:-10vw;
+}    
+ 
+main #main__interview__screen .interview__screen__staff h2{
+  font-size:1.5vw;
+  font-weight:normal;
+  margin-top:2vw;
+}    
+main #main__interview__screen .interview__screen__staff h3{
+  font-size:1.5vw;
+  text-align:center;
+  margin-top:2vw;
+}    
+main #main__interview__screen .interview__screen__staff img{
+  width:40vw;
+  height:30vw;
+}    
+ footer{
+  border-top:1px solid #bbb;
+  margin-top:15vw;
+  width:100%;
+  height:35vw;
+}
+ 
+#footer__content{
+  width:100%;
+  height:100%;
+  position:relative;
+}
+#footer__content .footer__info{
+   width:100%;
+   height:30vw;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+}
+ 
+#footer__content .footer__info .footer__left__text p{
+  font-size:2vw;
+  margin-bottom:1vw;
+  letter-spacing:2px;
+}
+#footer__content .footer__info .footer__right__title h2{
+  font-size:2.5vw;
+  color:blue;
+  margin-left:2vw;
+}
+#footer__content .footer__image{      
+  width:25vw;
+  height:20vw;
+  background-image:url("../../static/images/fm11.jpg");
+  background-position:center center;
+  background-size:cover;
+  position:absolute;
+  top:3vw;
+  left:70vw;
+  z-index:-1;
+}
+#footer__content .footer__list ul{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+#footer__content  .footer__list li{
+  font-size:1.5vw;
+}
+@media only screen and (max-width:1030px){
+header{
+  position:relative;
+}
+header .header__main__list{
+  display:none;
+}
+header #header__hidden__content{
+  display:block;
+  width:100%;
+  height:100%;
+}
+header #header__hidden__content .header__hidden__main{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+ 
+header #header__hidden__content .header__hidden__main .hidden__title h2{
+  font-size:2rem;
+  margin-left:5vw;
+}    
+header #header__hidden__content .header__menu div{
+  width:5vw;
+  height:1vw;
+  margin-right:5vw;
+  border-top:2px solid #000;
+  padding-bottom:1vw;
+}    
+ 
+header #header__hidden__content .header__hidden__list{
+  display:none;
+}    
+header #header__hidden__content .header__hidden__list.active{
+   display:block;
+   width:100%;
+   height:105vw;
+   background-color:#fff;
+   z-index:3;
+   position:absolute;
+   animation:listAnimation 0.5s;
+}
+@keyframes listAnimation{
+  0%{
+    transform:translateX(-50vw);
+  }
+  100%{
+    transform:translateX(0vw);
+   }
+}
+
+header #header__hidden__content .header__hidden__list ul .close__btn{
+  font-size:10vw;
+  margin-top:0vw;
+  margin-left:85vw;
+}    
+header #header__hidden__content .header__hidden__list ul li{
+  font-size:2rem;
+  font-size:bold;
+  margin-top:5vw;
+  text-align:center;
+}
+
+main #interview__content h1{
+  font-size:2.5rem;
+}
+
+main #interview__content .interview__top__content{
+  height:40vh;
+}
+main #interview__content .interview__top__content .interview__image__left{
+  height:30vw;
+}
+main #interview__content .interview__top__content .interview__image__right{
+  height:30vw;
+}
+main #interview__content .interview__title{
+  margin-top:10vw;
+  height:40vh;
+}
+
+main #interview__content .interview__title .main__subject{
+  font-size:1.8rem;
+}    
+main #interview__content .interview__title .first__text{
+  font-size:1.8rem;
+  margin-top:5vw;
+}    
+main #interview__content .interview__title .second__text{
+  font-size:1.8rem;
+  margin-top:5vw;
+ }   
+main #interview__content .interview__title .third__text{
+  font-size:2rem;
+  margin-top:5vw;
+ }   
+main #interview__content .interview__title p{
+  font-size:1.8rem;
+ }
+main #main__interview__screen h2{
+  font-size:2rem;
+}
+main #main__interview__screen .interview__screen__manager{
+ margin-top:5vw;
+ height:100%;
+}
+main #main__interview__screen .interview__screen__manager ul{
+  flex-direction:column;
+  align-items:center;
+} 
+
+main #main__interview__screen .interview__screen__manager ul img{
+  height:35vw;
+}
+main #main__interview__screen .interview__screen__manager ul li{
+  width:40%;
+  margin-top:3vw;
+}    
+main #main__interview__screen .interview__screen__manager  ul li p{
+  font-size:1.5rem;
+  margin-top:3vw;
+}    
+main #main__interview__screen .interview__screen__staff h1{
+  font-size:1.5rem;
+}
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__left .member__index__content .store__name{
+  font-size:1.5rem;        
+}
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__left .member__index__content .member__name{
+  font-size:1.5rem;
+}    
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__right h3{
+  font-size:1rem;
+}
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__left .member__index__content .store__name{
+  font-size:13px;        
+}
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__left .member__index__content .member__name{
+  font-size:16px;
+}    
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__right h3{
+  font-size:1rem;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content p{
+  font-size:1rem;
+}   
+main #main__interview__screen .interview__screen__staff .member__index3{
+   font-size:1rem; 
+}    
+    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content .store__name{
+  font-size:1.3rem;        
+}
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content .member__name{
+  font-size:1.3rem;
+}    
+
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__right h3{
+  font-size:1rem;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content p{
+  font-size:1rem;
+}
+footer{
+  height:40vw;
+}
+footer #footer__content .footer__list ul li{
+  font-size:1.3rem;
+}
+
+@media only screen and (max-width:700px){
+main #interview__content h1{
+  font-size:16px;
+}
+
+main #interview__content .interview__top__content{
+  height:30vh;
+}
+main #interview__content .interview__top__content .interview__image__left{
+  height:40vw;
+}
+main #interview__content .interview__top__content .interview__image__right{
+  height:40vw;
+}
+main #interview__content .interview__title{
+  margin-top:15vw;
+  height:40vh;
+}
+
+main #interview__content .interview__title .main__subject{
+  font-size:16px;
+}    
+main #interview__content .interview__title .first__text{
+  font-size:16px;
+  margin-top:5vw;
+}    
+main #interview__content .interview__title .second__text{
+  font-size:16px;
+  margin-top:5vw;
+ }   
+main #interview__content .interview__title .third__text{
+  font-size:16px;
+  margin-top:5vw;
+ }   
+main #interview__content .interview__title p{
+  font-size:13px;
+ }
+main #main__interview__screen h2{
+  font-size:16px;
+}
+main #main__interview__screen .interview__screen__manager{
+ margin-top:5vw;
+ height:100%;
+}
+main #main__interview__screen .interview__screen__manager ul{
+  flex-direction:column;
+  align-items:center;
+} 
+
+main #main__interview__screen .interview__screen__manager ul img{
+  height:35vw;
+}
+main #main__interview__screen .interview__screen__manager ul li{
+  width:60%;
+  margin-top:3vw;
+}    
+main #main__interview__screen .interview__screen__manager  ul li p{
+  font-size:13px;
+  margin-top:3vw;
+}    
+main #main__interview__screen .interview__screen__staff h1{
+  font-size:16px;
+}
+main #main__interview__screen .interview__screen__staff .member__index1{
+  height:50vh;
+  flex-direction:column;
+  align-items:center;
+}
+
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__left .member__index__content{
+  align-items:center;
+}    
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__left .member__index__content{
+  text-align:center;
+}
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__left .member__index__content .index1__img img{
+  width:50%;
+  height:40vw;
+}    
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__left .member__index__content .store__name{
+  font-size:13px;        
+}
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__left .member__index__content .member__name{
+  font-size:13px;
+}    
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__right{
+  text-align:center;
+  width:100%;
+  margin-left:0vw;
+} 
+main #main__interview__screen .interview__screen__staff .member__index2{
+  height:50vh;
+  flex-direction:column;
+  align-items:center;
+}
+
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__left .member__index__content{
+  align-items:center;
+}    
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__left .member__index__content{
+  text-align:center;
+}
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__left .member__index__content img{
+  width:50%;
+  height:40vw;
+}    
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__left .member__index__content .store__name{
+  font-size:13px;        
+}
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__left .member__index__content .member__name{
+  font-size:13px;
+}    
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__right{
+  text-align:center;
+  width:100%;
+  margin-left:0vw;
+}    
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__right h3{
+  width:100%;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content p{
+  width:100%;
+}    main #main__interview__screen .interview__screen__staff .member__index3{
+  height:50vh;
+  flex-direction:column;
+  align-items:center;
+}
+
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content{
+  align-items:center;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content{
+  text-align:center;
+}
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content img{
+  width:50%;
+  height:40vw;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content .store__name{
+  font-size:13px;        
+}
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content .member__name{
+  font-size:13px;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__right{
+  text-align:center;
+  width:100%;
+  margin-left:0vw;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__right h3{
+  width:100%;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content p{
+  width:100%;
+}
+
+}
+
+
+
+@media only screen and (max-width: 550px){
+   
+header{
+  position:relative;
+}
+header .header__main__list{
+  display:none;
+}
+header #header__hidden__content{
+  display:block;
+  width:100%;
+  height:100%;
+}
+header #header__hidden__content .header__hidden__main{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+ 
+header #header__hidden__content .header__hidden__main .hidden__title h2{
+  font-size:16px;
+  margin-left:5vw;
+}    
+header #header__hidden__content .header__menu div{
+  width:5vw;
+  height:1vw;
+  margin-right:5vw;
+  border-top:2px solid #000;
+  padding-bottom:1vw;
+}    
+ 
+header #header__hidden__content .header__hidden__list{
+  display:none;
+}    
+header #header__hidden__content .header__hidden__list.active{
+   display:block;
+   width:100%;
+   height:105vw;
+   background-color:#fff;
+   z-index:3;
+   position:absolute;
+   animation:listAnimation 0.5s;
+}
+@keyframes listAnimation{
+  0%{
+    transform:translateX(-50vw);
+  }
+  100%{
+    transform:translateX(0vw);
+   }
+}
+
+header #header__hidden__content .header__hidden__list ul .close__btn{
+  font-size:10vw;
+  margin-top:0vw;
+  margin-left:85vw;
+}    
+header #header__hidden__content .header__hidden__list ul li{
+  font-size:3vw;
+  font-size:bold;
+  margin-top:5vw;
+  text-align:center;
+}
+
+main #interview__content h1{
+  font-size:15px;
+}
+
+main #interview__content .interview__top__content{
+  height:30vh;
+}
+main #interview__content .interview__top__content .interview__image__left{
+  height:40vw;
+}
+main #interview__content .interview__top__content .interview__image__right{
+  height:40vw;
+}
+main #interview__content .interview__title{
+  margin-top:5vw;
+  height:40vh;
+}
+
+main #interview__content .interview__title .main__subject{
+  font-size:16px;
+}    
+main #interview__content .interview__title .first__text{
+  font-size:16px;
+  margin-top:5vw;
+}    
+main #interview__content .interview__title .second__text{
+  font-size:16px;
+  margin-top:5vw;
+ }   
+main #interview__content .interview__title .third__text{
+  font-size:16px;
+  margin-top:5vw;
+ }   
+main #interview__content .interview__title p{
+  font-size:13px;
+ }
+main #main__interview__screen h2{
+  font-size:16px;
+}
+main #main__interview__screen .interview__screen__manager{
+ margin-top:5vw;
+ height:100%;
+}
+main #main__interview__screen .interview__screen__manager ul{
+  flex-direction:column;
+  align-items:center;
+}    
+main #main__interview__screen .interview__screen__manager ul li{
+  width:60%;
+  margin-top:3vw;
+}    
+main #main__interview__screen .interview__screen__manager  ul li p{
+  font-size:13px;
+  margin-top:3vw;
+}    
+main #main__interview__screen .interview__screen__staff h1{
+  font-size:16px;
+}
+main #main__interview__screen .interview__screen__staff .member__index1{
+  height:60vh;
+  flex-direction:column;
+  align-items:center;
+}
+
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__left .member__index__content{
+  align-items:center;
+}    
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__left .member__index__content{
+  text-align:center;
+}
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__left .member__index__content .index1__img img{
+  width:50%;
+  height:40vw;
+}    
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__left .member__index__content .store__name{
+  font-size:13px;        
+}
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__left .member__index__content .member__name{
+  font-size:13px;
+}    
+main #main__interview__screen .interview__screen__staff .member__index1 .member__index1__right{
+  text-align:center;
+  width:100%;
+} 
+main #main__interview__screen .interview__screen__staff .member__index2{
+  height:60vh;
+  flex-direction:column;
+  align-items:center;
+}
+
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__left .member__index__content{
+  align-items:center;
+}    
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__left .member__index__content{
+  text-align:center;
+}
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__left .member__index__content img{
+  width:50%;
+  height:40vw;
+}    
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__left .member__index__content .store__name{
+  font-size:13px;        
+}
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__left .member__index__content .member__name{
+  font-size:13px;
+}    
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__right{
+  text-align:center;
+  width:100%;
+  margin-left:0vw;
+}    
+main #main__interview__screen .interview__screen__staff .member__index2 .member__index2__right h3{
+  width:100%;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content p{
+  width:100%;
+}    main #main__interview__screen .interview__screen__staff .member__index3{
+  height:60vh;
+  flex-direction:column;
+  align-items:center;
+}
+
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content{
+  align-items:center;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content{
+  text-align:center;
+}
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content img{
+  width:50%;
+  height:40vw;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content .store__name{
+  font-size:13px;        
+}
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content .member__name{
+  font-size:13px;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__right{
+  text-align:center;
+  width:100%;
+  margin-left:0vw;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__right h3{
+  width:100%;
+}    
+main #main__interview__screen .interview__screen__staff .member__index3 .member__index3__left .member__index__content p{
+  width:100%;
+}
+footer{
+  height:50vw;
+  margin-top:0vw;
+}
+footer #footer__content .footer__image{
+  display:none;
+}
+footer #footer__content .footer__info{
+  display:none;
+}
+footer #footer__content .footer__list{
+height:15vh;          
+}
+footer #footer__content .footer__list ul{ 
+  flex-direction:column;
+  margin-top:-5vw;
+}    
+footer #footer__content .footer__list ul li{  
+  padding-top:3vw;
+  font-size:1.3rem;
+}
+    
+footer #footer__content .footer__list ul li:hover{
+    opacity:0.6;                      
+}
+
+
+}
